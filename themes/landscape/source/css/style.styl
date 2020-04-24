@@ -87,3 +87,52 @@ if sidebar is left
 
 if sidebar
   @import "_partial/sidebar"
+
+.card-container
+  display flex
+  padding 24px 0
+  justify-content space-evenly
+  flex-wrap wrap
+
+.index-card
+  background-color #fff
+  border 1px solid
+  border-color rgba(0, 0, 0, 0.1)
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1)
+  border-radius 12px
+  padding 24px
+  margin 16px
+  display flex
+  flex-direction column
+  width 40%
+
+h3.card-title
+  font-size 24px
+  margin-bottom 12px
+  color color-igem-green
+
+.card-text
+  flex-grow 1
+  padding 8px 0
+
+a.more-button
+  font-size 16px
+  font-weight bold
+  color color-igem-green
+  text-align right
+  text-decoration none
+
+.img
+  height 200px
+  background-size contain
+  background-repeat no-repeat
+  background-position center center
+
+#img1
+  background-image url(index-1-url)
+#img2
+  background-image url(index-2-url)
+#img3
+  background-image url(index-3-url)
+#img4
+  background-image url(index-4-url)
